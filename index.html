@@ -42,7 +42,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
         <div id="hd">
             <h1>Lighp&#039;s main repository Composer Repository</h1>
                         <div id="lastupdate">
-                Last updated: <time datetime="2014-04-21T19:44:50+0200">Mon, 21 Apr 2014 19:44:50 +0200</time>
+                Last updated: <time datetime="2014-04-22T12:06:54+0200">Tue, 22 Apr 2014 12:06:54 +0200</time>
             </div>
         </div>
         <div id="bd">
@@ -60,6 +60,19 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                 Filter by package name:
                 <input type="text" id="search" autocomplete="off" autofocus />
 
+                                    <h3 id="components/mustache">components/mustache</h3>
+                                        <table>
+                                                                                                <tr>
+                            <th>Releases</th>
+                            <td>
+                                <a href="https://github.com/janl/mustache.js/archive/0.8.1.zip" title="">0.8.1</a>                            </td>
+                        </tr>
+                        <tr>
+                            <th>Required by</th>
+                            <td>
+                                                                                            </td>
+                        </tr>
+                    </table>
                                     <h3 id="lighp/composer-lighp-installers">lighp/composer-lighp-installers</h3>
                                         <table>
                                                                             <tr>
@@ -138,7 +151,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                             </div>
         </div>
         <div id="ft">
-            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2014-04-21T19:44:50+0200</small></p>
+            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2014-04-22T12:06:54+0200</small></p>
         </div>
     </div>
 
@@ -172,7 +185,7 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
         }).focus();
         var $lastUpdate = $('#lastupdate time');
         function updateDate() {
-            $lastUpdate.text(moment('2014-04-21T19:44:50+0200').fromNow());
+            $lastUpdate.text(moment('2014-04-22T12:06:54+0200').fromNow());
         }
         setInterval(updateDate, 5000);
         updateDate();

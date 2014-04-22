@@ -1,0 +1,121 @@
+{
+    "packages": {
+        "lighp/composer-lighp-installers": {
+            "dev-master": {
+                "name": "lighp/composer-lighp-installers",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/composer-lighp-installers.git",
+                    "reference": "51958acc59e55cd20b26aefe9c8931b6a4693aed"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/composer-lighp-installers/zipball/51958acc59e55cd20b26aefe9c8931b6a4693aed",
+                    "reference": "51958acc59e55cd20b26aefe9c8931b6a4693aed",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "1.0.0"
+                },
+                "time": "2014-04-21 06:55:29",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "lighp\\Composer\\Plugin"
+                },
+                "autoload": {
+                    "psr-0": {
+                        "lighp\\Composer": "src/"
+                    }
+                },
+                "license": [
+                    "GPLv3"
+                ],
+                "support": {
+                    "source": "https://github.com/lighp/composer-lighp-installers/tree/master",
+                    "issues": "https://github.com/lighp/composer-lighp-installers/issues"
+                }
+            }
+        },
+        "lighp/lighp-core": {
+            "dev-master": {
+                "name": "lighp/lighp-core",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/lighp-core.git",
+                    "reference": "9302185f354f7135c1ff6113a2588fc1afc9d184"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/lighp-core/zipball/9302185f354f7135c1ff6113a2588fc1afc9d184",
+                    "reference": "9302185f354f7135c1ff6113a2588fc1afc9d184",
+                    "shasum": ""
+                },
+                "require": {
+                    "ircmaxell/password-compat": "dev-master",
+                    "lighp/composer-lighp-installers": "dev-master",
+                    "mustache/mustache": "dev-master",
+                    "mustangostang/spyc": "0.5.*@dev"
+                },
+                "time": "2014-04-19 07:55:10",
+                "type": "lighp-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "homepage": "http://emersion.fr"
+                    }
+                ],
+                "description": "A light-weight php framework based on a package system.",
+                "homepage": "http://lighp.github.io/lighp/",
+                "support": {
+                    "source": "https://github.com/lighp/lighp-core/tree/master",
+                    "issues": "https://github.com/lighp/lighp-core/issues"
+                }
+            }
+        },
+        "lighp/module-test": {
+            "dev-master": {
+                "name": "lighp/module-test",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-test.git",
+                    "reference": "959b04469673099e906f50bc42f633f416fd7813"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-test/zipball/959b04469673099e906f50bc42f633f416fd7813",
+                    "reference": "959b04469673099e906f50bc42f633f416fd7813",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master"
+                },
+                "time": "2014-04-21 17:44:30",
+                "type": "lighp-module",
+                "license": [
+                    "The Unlicence"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "homepage": "http://emersion.fr"
+                    }
+                ],
+                "description": "A module for test purposes.",
+                "homepage": "http://lighp.github.io/lighp/",
+                "support": {
+                    "source": "https://github.com/lighp/module-test/tree/master",
+                    "issues": "https://github.com/lighp/module-test/issues"
+                }
+            }
+        }
+    }
+}

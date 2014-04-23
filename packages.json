@@ -293,6 +293,44 @@
                 }
             }
         },
+        "lighp/module-backend-packagecontrol": {
+            "dev-master": {
+                "name": "lighp/module-backend-packagecontrol",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-backend-packagecontrol.git",
+                    "reference": "49e51a8d5ed14208a3694279a211cfbd48707c2b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-backend-packagecontrol/zipball/49e51a8d5ed14208a3694279a211cfbd48707c2b",
+                    "reference": "49e51a8d5ed14208a3694279a211cfbd48707c2b",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "1.0.*@dev",
+                    "lighp/composer-lighp-installers": "dev-master"
+                },
+                "time": "2014-04-23 12:49:40",
+                "type": "lighp-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "A package control module, based on Composer.",
+                "support": {
+                    "source": "https://github.com/lighp/module-backend-packagecontrol/tree/master",
+                    "issues": "https://github.com/lighp/module-backend-packagecontrol/issues"
+                }
+            }
+        },
         "lighp/module-backend-routes": {
             "dev-master": {
                 "name": "lighp/module-backend-routes",
@@ -338,18 +376,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/module-blog.git",
-                    "reference": "a789a269aa1cd62e0937ac262473071b6ee79616"
+                    "reference": "d3961e6903b229362f2db1f2ad16678e56a41b52"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/module-blog/zipball/a789a269aa1cd62e0937ac262473071b6ee79616",
-                    "reference": "a789a269aa1cd62e0937ac262473071b6ee79616",
+                    "url": "https://api.github.com/repos/lighp/module-blog/zipball/d3961e6903b229362f2db1f2ad16678e56a41b52",
+                    "reference": "d3961e6903b229362f2db1f2ad16678e56a41b52",
                     "shasum": ""
                 },
                 "require": {
-                    "lighp/composer-lighp-installers": "dev-master"
+                    "lighp/composer-lighp-installers": "dev-master",
+                    "lighp/lib-captcha": "dev-master"
                 },
-                "time": "2014-04-23 09:06:38",
+                "time": "2014-04-23 12:19:08",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"
@@ -364,6 +403,81 @@
                 "support": {
                     "source": "https://github.com/lighp/module-blog/tree/master",
                     "issues": "https://github.com/lighp/module-blog/issues"
+                }
+            }
+        },
+        "lighp/module-contact": {
+            "dev-master": {
+                "name": "lighp/module-contact",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-contact.git",
+                    "reference": "58d852084d4664146ade9e535dd36e7d5e61b468"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-contact/zipball/58d852084d4664146ade9e535dd36e7d5e61b468",
+                    "reference": "58d852084d4664146ade9e535dd36e7d5e61b468",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master",
+                    "lighp/lib-captcha": "dev-master"
+                },
+                "time": "2014-04-23 12:18:27",
+                "type": "lighp-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "A simple contact page, which sends e-mails to the webmaster.",
+                "support": {
+                    "source": "https://github.com/lighp/module-contact/tree/master",
+                    "issues": "https://github.com/lighp/module-contact/issues"
+                }
+            }
+        },
+        "lighp/module-portfolio": {
+            "dev-master": {
+                "name": "lighp/module-portfolio",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-portfolio.git",
+                    "reference": "f39b774b87347954dacce61548f51c7017156829"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-portfolio/zipball/f39b774b87347954dacce61548f51c7017156829",
+                    "reference": "f39b774b87347954dacce61548f51c7017156829",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master"
+                },
+                "time": "2014-04-23 12:40:17",
+                "type": "lighp-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "A portfolio module.",
+                "support": {
+                    "source": "https://github.com/lighp/module-portfolio/tree/master",
+                    "issues": "https://github.com/lighp/module-portfolio/issues"
                 }
             }
         },

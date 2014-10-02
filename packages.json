@@ -37,18 +37,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/composer-lighp-installers.git",
-                    "reference": "51958acc59e55cd20b26aefe9c8931b6a4693aed"
+                    "reference": "119e89e1a4f7e461268c4eb720e460490adb5c07"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/composer-lighp-installers/zipball/51958acc59e55cd20b26aefe9c8931b6a4693aed",
-                    "reference": "51958acc59e55cd20b26aefe9c8931b6a4693aed",
+                    "url": "https://api.github.com/repos/lighp/composer-lighp-installers/zipball/119e89e1a4f7e461268c4eb720e460490adb5c07",
+                    "reference": "119e89e1a4f7e461268c4eb720e460490adb5c07",
                     "shasum": ""
                 },
                 "require": {
                     "composer-plugin-api": "1.0.0"
                 },
-                "time": "2014-04-21 06:55:29",
+                "time": "2014-10-02 18:07:06",
                 "type": "composer-plugin",
                 "extra": {
                     "class": "lighp\\Composer\\Plugin"

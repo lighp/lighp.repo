@@ -302,12 +302,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/module-backend-packagecontrol.git",
-                    "reference": "954d5d5c62c8fd3f4470a7201971cc6283085ef0"
+                    "reference": "5890ac021888fc21dda4441acac078c52fc6cdba"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/module-backend-packagecontrol/zipball/954d5d5c62c8fd3f4470a7201971cc6283085ef0",
-                    "reference": "954d5d5c62c8fd3f4470a7201971cc6283085ef0",
+                    "url": "https://api.github.com/repos/lighp/module-backend-packagecontrol/zipball/5890ac021888fc21dda4441acac078c52fc6cdba",
+                    "reference": "5890ac021888fc21dda4441acac078c52fc6cdba",
                     "shasum": ""
                 },
                 "require": {
@@ -315,7 +315,7 @@
                     "lighp/composer-lighp-installers": "dev-master",
                     "symfony/process": "~2.6@dev"
                 },
-                "time": "2014-10-03 18:24:01",
+                "time": "2014-10-03 19:22:44",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"

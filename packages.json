@@ -295,19 +295,19 @@
             }
         },
         "lighp/module-backend-packagecontrol": {
-            "dev-master": {
+            "0.4": {
                 "name": "lighp/module-backend-packagecontrol",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/module-backend-packagecontrol.git",
-                    "reference": "5890ac021888fc21dda4441acac078c52fc6cdba"
+                    "reference": "1be502ec60a1fbcc70f68b713c011a7d05641493"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/module-backend-packagecontrol/zipball/5890ac021888fc21dda4441acac078c52fc6cdba",
-                    "reference": "5890ac021888fc21dda4441acac078c52fc6cdba",
+                    "url": "https://api.github.com/repos/lighp/module-backend-packagecontrol/zipball/1be502ec60a1fbcc70f68b713c011a7d05641493",
+                    "reference": "1be502ec60a1fbcc70f68b713c011a7d05641493",
                     "shasum": ""
                 },
                 "require": {
@@ -315,7 +315,7 @@
                     "lighp/composer-lighp-installers": "dev-master",
                     "symfony/process": "~2.6@dev"
                 },
-                "time": "2014-10-03 19:22:44",
+                "time": "2014-10-04 10:36:29",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"
@@ -328,7 +328,44 @@
                 ],
                 "description": "A package control module, based on Composer.",
                 "support": {
-                    "source": "https://github.com/lighp/module-backend-packagecontrol/tree/master",
+                    "source": "https://github.com/lighp/module-backend-packagecontrol/tree/v0.4",
+                    "issues": "https://github.com/lighp/module-backend-packagecontrol/issues"
+                }
+            },
+            "dev-master": {
+                "name": "lighp/module-backend-packagecontrol",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-backend-packagecontrol.git",
+                    "reference": "1be502ec60a1fbcc70f68b713c011a7d05641493"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-backend-packagecontrol/zipball/1be502ec60a1fbcc70f68b713c011a7d05641493",
+                    "reference": "1be502ec60a1fbcc70f68b713c011a7d05641493",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "1.0.*@dev",
+                    "lighp/composer-lighp-installers": "dev-master",
+                    "symfony/process": "~2.6@dev"
+                },
+                "time": "2014-10-04 10:36:29",
+                "type": "lighp-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "A package control module, based on Composer.",
+                "support": {
+                    "source": "https://github.com/lighp/module-backend-packagecontrol/tree/v0.4",
                     "issues": "https://github.com/lighp/module-backend-packagecontrol/issues"
                 }
             }

@@ -223,12 +223,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/lighp-core.git",
-                    "reference": "9302185f354f7135c1ff6113a2588fc1afc9d184"
+                    "reference": "592bcc0b8db7a016f2c06903cef806f4643258e1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/lighp-core/zipball/9302185f354f7135c1ff6113a2588fc1afc9d184",
-                    "reference": "9302185f354f7135c1ff6113a2588fc1afc9d184",
+                    "url": "https://api.github.com/repos/lighp/lighp-core/zipball/592bcc0b8db7a016f2c06903cef806f4643258e1",
+                    "reference": "592bcc0b8db7a016f2c06903cef806f4643258e1",
                     "shasum": ""
                 },
                 "require": {
@@ -237,7 +237,7 @@
                     "mustache/mustache": "dev-master",
                     "mustangostang/spyc": "0.5.*@dev"
                 },
-                "time": "2014-04-19 07:55:10",
+                "time": "2015-02-11 13:39:16",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"
@@ -264,19 +264,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/module-backend-main.git",
-                    "reference": "415beb30d8325214f7bd19bb5fe036a0b5d818d4"
+                    "reference": "d00089ca086a4f7bc191d603a2260109d722ed1e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/module-backend-main/zipball/415beb30d8325214f7bd19bb5fe036a0b5d818d4",
-                    "reference": "415beb30d8325214f7bd19bb5fe036a0b5d818d4",
+                    "url": "https://api.github.com/repos/lighp/module-backend-main/zipball/d00089ca086a4f7bc191d603a2260109d722ed1e",
+                    "reference": "d00089ca086a4f7bc191d603a2260109d722ed1e",
                     "shasum": ""
                 },
                 "require": {
                     "lighp/composer-lighp-installers": "dev-master",
                     "lighp/lib-arraysearcher": "dev-master"
                 },
-                "time": "2014-04-23 13:04:35",
+                "time": "2015-02-04 15:59:04",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"
@@ -408,6 +408,42 @@
             }
         },
         "lighp/module-blog": {
+            "0.5.2": {
+                "name": "lighp/module-blog",
+                "version": "0.5.2",
+                "version_normalized": "0.5.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-blog.git",
+                    "reference": "d3961e6903b229362f2db1f2ad16678e56a41b52"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-blog/zipball/d3961e6903b229362f2db1f2ad16678e56a41b52",
+                    "reference": "d3961e6903b229362f2db1f2ad16678e56a41b52",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master",
+                    "lighp/lib-captcha": "dev-master"
+                },
+                "time": "2014-04-23 12:19:08",
+                "type": "lighp-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "A minimalistic blog module, supporting comments.",
+                "support": {
+                    "source": "https://github.com/lighp/module-blog/tree/master",
+                    "issues": "https://github.com/lighp/module-blog/issues"
+                }
+            },
             "dev-master": {
                 "name": "lighp/module-blog",
                 "version": "dev-master",

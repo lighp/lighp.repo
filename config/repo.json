@@ -12,6 +12,7 @@
         { "type": "vcs", "url": "https://github.com/lighp/module-users" },
         { "type": "vcs", "url": "https://github.com/lighp/module-backend-routes" },
         { "type": "vcs", "url": "https://github.com/lighp/module-backend-packagecontrol" },
+        { "type": "vcs", "url": "https://github.com/lighp/module-backend-assets" },
         { "type": "vcs", "url": "https://github.com/lighp/module-blog" },
         { "type": "vcs", "url": "https://github.com/lighp/module-test" },
         { "type": "vcs", "url": "https://github.com/lighp/module-portfolio" },

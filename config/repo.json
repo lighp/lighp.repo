@@ -19,6 +19,7 @@
         { "type": "vcs", "url": "https://github.com/lighp/module-test" },
         { "type": "vcs", "url": "https://github.com/lighp/module-portfolio" },
         { "type": "vcs", "url": "https://github.com/lighp/module-contact" },
+        { "type": "vcs", "url": "https://github.com/lighp/module-pages" },
 		{
             "type": "package",
             "package": {

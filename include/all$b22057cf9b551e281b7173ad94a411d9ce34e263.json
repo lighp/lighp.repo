@@ -29,44 +29,6 @@
                 }
             }
         },
-        "lighp/composer-lighp-installers": {
-            "dev-master": {
-                "name": "lighp/composer-lighp-installers",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/lighp/composer-lighp-installers.git",
-                    "reference": "1b6b1ac99b6768c2622f73c77daf86524bf84515"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/composer-lighp-installers/zipball/1b6b1ac99b6768c2622f73c77daf86524bf84515",
-                    "reference": "1b6b1ac99b6768c2622f73c77daf86524bf84515",
-                    "shasum": ""
-                },
-                "require": {
-                    "composer-plugin-api": "1.0.0"
-                },
-                "time": "2015-07-25 19:05:27",
-                "type": "composer-plugin",
-                "extra": {
-                    "class": "lighp\\Composer\\Plugin"
-                },
-                "autoload": {
-                    "psr-0": {
-                        "lighp\\Composer": "src/"
-                    }
-                },
-                "license": [
-                    "GPLv3"
-                ],
-                "support": {
-                    "source": "https://github.com/lighp/composer-lighp-installers/tree/master",
-                    "issues": "https://github.com/lighp/composer-lighp-installers/issues"
-                }
-            }
-        },
         "lighp/dao-jsondb": {
             "dev-master": {
                 "name": "lighp/dao-jsondb",
@@ -75,18 +37,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/dao-jsondb.git",
-                    "reference": "019949c95e6777b1fbebd92d90f50161af5df544"
+                    "reference": "c56b73350134da59ac6157cb5ff74d26bd5ea8c6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/dao-jsondb/zipball/019949c95e6777b1fbebd92d90f50161af5df544",
-                    "reference": "019949c95e6777b1fbebd92d90f50161af5df544",
+                    "url": "https://api.github.com/repos/lighp/dao-jsondb/zipball/c56b73350134da59ac6157cb5ff74d26bd5ea8c6",
+                    "reference": "c56b73350134da59ac6157cb5ff74d26bd5ea8c6",
                     "shasum": ""
                 },
                 "require": {
                     "lighp/composer-lighp-installers": "dev-master"
                 },
-                "time": "2014-04-23 11:59:03",
+                "time": "2015-08-10 19:00:41",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"
@@ -215,88 +177,6 @@
                 }
             }
         },
-        "lighp/lighp-core": {
-            "dev-master": {
-                "name": "lighp/lighp-core",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/lighp/lighp-core.git",
-                    "reference": "653df6ac61f97efbb3435e9ead9f5fecddafae25"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/lighp-core/zipball/653df6ac61f97efbb3435e9ead9f5fecddafae25",
-                    "reference": "653df6ac61f97efbb3435e9ead9f5fecddafae25",
-                    "shasum": ""
-                },
-                "require": {
-                    "ircmaxell/password-compat": "dev-master",
-                    "lighp/composer-lighp-installers": "dev-master",
-                    "lighp/module-api-base": "dev-master",
-                    "lighp/module-users": "dev-master",
-                    "mustache/mustache": "dev-master",
-                    "mustangostang/spyc": "0.5.*@dev"
-                },
-                "time": "2015-07-31 11:53:44",
-                "type": "lighp-module",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "emersion",
-                        "homepage": "http://emersion.fr"
-                    }
-                ],
-                "description": "A light-weight php framework based on a package system.",
-                "homepage": "http://lighp.github.io/lighp/",
-                "support": {
-                    "source": "https://github.com/lighp/lighp-core/tree/master",
-                    "issues": "https://github.com/lighp/lighp-core/issues"
-                }
-            },
-            "dev-router": {
-                "name": "lighp/lighp-core",
-                "version": "dev-router",
-                "version_normalized": "dev-router",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/lighp/lighp-core.git",
-                    "reference": "ce0cd5e1b16ef5c816ad5f13920c971e876f5402"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/lighp-core/zipball/ce0cd5e1b16ef5c816ad5f13920c971e876f5402",
-                    "reference": "ce0cd5e1b16ef5c816ad5f13920c971e876f5402",
-                    "shasum": ""
-                },
-                "require": {
-                    "ircmaxell/password-compat": "dev-master",
-                    "lighp/composer-lighp-installers": "dev-master",
-                    "mustache/mustache": "dev-master",
-                    "mustangostang/spyc": "0.5.*@dev"
-                },
-                "time": "2015-07-25 16:27:46",
-                "type": "lighp-module",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "emersion",
-                        "homepage": "http://emersion.fr"
-                    }
-                ],
-                "description": "A light-weight php framework based on a package system.",
-                "homepage": "http://lighp.github.io/lighp/",
-                "support": {
-                    "source": "https://github.com/lighp/lighp-core/tree/router",
-                    "issues": "https://github.com/lighp/lighp-core/issues"
-                }
-            }
-        },
         "lighp/module-api-base": {
             "dev-master": {
                 "name": "lighp/module-api-base",
@@ -305,18 +185,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/module-api-base.git",
-                    "reference": "1accc1a95189ba41547621ebd3b2452e46594e85"
+                    "reference": "422d60ed5d90e36628880d457b585f59d22cee18"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/module-api-base/zipball/1accc1a95189ba41547621ebd3b2452e46594e85",
-                    "reference": "1accc1a95189ba41547621ebd3b2452e46594e85",
+                    "url": "https://api.github.com/repos/lighp/module-api-base/zipball/422d60ed5d90e36628880d457b585f59d22cee18",
+                    "reference": "422d60ed5d90e36628880d457b585f59d22cee18",
                     "shasum": ""
                 },
                 "require": {
                     "lighp/composer-lighp-installers": "dev-master"
                 },
-                "time": "2015-07-31 11:52:13",
+                "time": "2015-07-31 15:20:42",
                 "type": "lighp-module",
                 "license": [
                     "MIT"
@@ -454,12 +334,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/module-backend-packagecontrol.git",
-                    "reference": "7cb1bd07c78be13212a613716736e430a977a4bd"
+                    "reference": "1b776ffc6e11d07c17c2b522381ec2e4190c97c9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/module-backend-packagecontrol/zipball/7cb1bd07c78be13212a613716736e430a977a4bd",
-                    "reference": "7cb1bd07c78be13212a613716736e430a977a4bd",
+                    "url": "https://api.github.com/repos/lighp/module-backend-packagecontrol/zipball/1b776ffc6e11d07c17c2b522381ec2e4190c97c9",
+                    "reference": "1b776ffc6e11d07c17c2b522381ec2e4190c97c9",
                     "shasum": ""
                 },
                 "require": {
@@ -468,7 +348,7 @@
                     "sensiolabs/ansi-to-html": "^1.1@dev",
                     "symfony/process": "~2.6@dev"
                 },
-                "time": "2015-07-31 11:44:20",
+                "time": "2015-07-31 15:14:40",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"
@@ -494,18 +374,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/module-backend-routes.git",
-                    "reference": "694ec8cc28e1104fc3b8eaf3dd1e0007c427d018"
+                    "reference": "9dcabeb0b4a61c8cc024c19054741519393a6461"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/module-backend-routes/zipball/694ec8cc28e1104fc3b8eaf3dd1e0007c427d018",
-                    "reference": "694ec8cc28e1104fc3b8eaf3dd1e0007c427d018",
+                    "url": "https://api.github.com/repos/lighp/module-backend-routes/zipball/9dcabeb0b4a61c8cc024c19054741519393a6461",
+                    "reference": "9dcabeb0b4a61c8cc024c19054741519393a6461",
                     "shasum": ""
                 },
                 "require": {
                     "lighp/composer-lighp-installers": "dev-master"
                 },
-                "time": "2015-07-31 11:44:28",
+                "time": "2015-08-09 15:26:26",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"
@@ -604,19 +484,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/module-blog.git",
-                    "reference": "fa6354a79205725bf446bf5810f60527893c0037"
+                    "reference": "eeea97e473574572d224674f261fd4e1fde8822e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/module-blog/zipball/fa6354a79205725bf446bf5810f60527893c0037",
-                    "reference": "fa6354a79205725bf446bf5810f60527893c0037",
+                    "url": "https://api.github.com/repos/lighp/module-blog/zipball/eeea97e473574572d224674f261fd4e1fde8822e",
+                    "reference": "eeea97e473574572d224674f261fd4e1fde8822e",
                     "shasum": ""
                 },
                 "require": {
                     "lighp/composer-lighp-installers": "dev-master",
                     "lighp/lib-captcha": "dev-master"
                 },
-                "time": "2015-07-31 11:44:45",
+                "time": "2015-08-09 14:02:07",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"
@@ -669,6 +549,43 @@
                 "support": {
                     "source": "https://github.com/lighp/module-contact/tree/master",
                     "issues": "https://github.com/lighp/module-contact/issues"
+                }
+            }
+        },
+        "lighp/module-pages": {
+            "dev-master": {
+                "name": "lighp/module-pages",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-pages.git",
+                    "reference": "4275e67b9659c74ef46e725400b1f6b25592a19a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-pages/zipball/4275e67b9659c74ef46e725400b1f6b25592a19a",
+                    "reference": "4275e67b9659c74ef46e725400b1f6b25592a19a",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master"
+                },
+                "time": "2015-08-10 20:12:29",
+                "type": "lighp-module",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "A simple pages module",
+                "support": {
+                    "source": "https://github.com/lighp/module-pages/tree/master",
+                    "issues": "https://github.com/lighp/module-pages/issues"
                 }
             }
         },

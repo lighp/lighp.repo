@@ -1,5 +1,121 @@
 {
     "packages": {
+        "components/bootstrap-cyborg": {
+            "2.3.1": {
+                "name": "components/bootstrap-cyborg",
+                "version": "2.3.1",
+                "version_normalized": "2.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/components/bootstrap-cyborg.git",
+                    "reference": "0263e22e68ab11acd49c51f3afc72662603b613f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/components/bootstrap-cyborg/zipball/0263e22e68ab11acd49c51f3afc72662603b613f",
+                    "reference": "0263e22e68ab11acd49c51f3afc72662603b613f",
+                    "shasum": ""
+                },
+                "require": {
+                    "components/bootstrap": "*"
+                },
+                "time": "2013-04-17 02:34:56",
+                "type": "component",
+                "extra": {
+                    "component": {
+                        "styles": [
+                            "css/bootstrap.css",
+                            "css/bootstrap-responsive.css"
+                        ],
+                        "files": [
+                            "img/glyphicons-halflings.png",
+                            "img/glyphicons-halflings-white.png"
+                        ],
+                        "shim": {
+                            "deps": [
+                                "bootstrap"
+                            ]
+                        }
+                    }
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Thomas Park",
+                        "homepage": "http://github.com/thomaspark"
+                    }
+                ],
+                "description": "Shim repository for the Bootstrap Bootswatch Cyborg theme.",
+                "homepage": "http://bootswatch.com/",
+                "keywords": [
+                    "bootstrap",
+                    "css"
+                ],
+                "support": {
+                    "source": "https://github.com/components/bootstrap-cyborg/tree/2.3.1",
+                    "issues": "https://github.com/components/bootstrap-cyborg/issues"
+                }
+            },
+            "dev-master": {
+                "name": "components/bootstrap-cyborg",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/components/bootstrap-cyborg.git",
+                    "reference": "6ee91638103c4ab09d204f796fedee567d0dfb70"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/components/bootstrap-cyborg/zipball/6ee91638103c4ab09d204f796fedee567d0dfb70",
+                    "reference": "6ee91638103c4ab09d204f796fedee567d0dfb70",
+                    "shasum": ""
+                },
+                "require": {
+                    "components/bootstrap": "*"
+                },
+                "time": "2013-05-02 23:55:46",
+                "type": "component",
+                "extra": {
+                    "component": {
+                        "styles": [
+                            "css/bootstrap.css",
+                            "css/bootstrap-responsive.css"
+                        ],
+                        "files": [
+                            "img/glyphicons-halflings.png",
+                            "img/glyphicons-halflings-white.png"
+                        ],
+                        "shim": {
+                            "deps": [
+                                "bootstrap"
+                            ]
+                        }
+                    }
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Thomas Park",
+                        "homepage": "http://github.com/thomaspark"
+                    }
+                ],
+                "description": "Shim repository for the Bootstrap Bootswatch Cyborg theme.",
+                "homepage": "http://bootswatch.com/",
+                "keywords": [
+                    "bootstrap",
+                    "css"
+                ],
+                "support": {
+                    "source": "https://github.com/components/bootstrap-cyborg/tree/master",
+                    "issues": "https://github.com/components/bootstrap-cyborg/issues"
+                }
+            }
+        },
         "components/mustache": {
             "2.1.3": {
                 "name": "components/mustache",
@@ -566,19 +682,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/module-blog.git",
-                    "reference": "eeea97e473574572d224674f261fd4e1fde8822e"
+                    "reference": "a985773ac8cb26ed15eca105828efb3ce55a53f5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/module-blog/zipball/eeea97e473574572d224674f261fd4e1fde8822e",
-                    "reference": "eeea97e473574572d224674f261fd4e1fde8822e",
+                    "url": "https://api.github.com/repos/lighp/module-blog/zipball/a985773ac8cb26ed15eca105828efb3ce55a53f5",
+                    "reference": "a985773ac8cb26ed15eca105828efb3ce55a53f5",
                     "shasum": ""
                 },
                 "require": {
                     "lighp/composer-lighp-installers": "dev-master",
                     "lighp/lib-captcha": "dev-master"
                 },
-                "time": "2015-08-09 14:02:07",
+                "time": "2015-08-15 15:50:25",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"

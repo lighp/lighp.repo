@@ -449,6 +449,43 @@
                 }
             }
         },
+        "lighp/module-backend-devtools": {
+            "dev-master": {
+                "name": "lighp/module-backend-devtools",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-backend-devtools.git",
+                    "reference": "a4115d01813ea2f7dfcb7625b49b08781d16285f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-backend-devtools/zipball/a4115d01813ea2f7dfcb7625b49b08781d16285f",
+                    "reference": "a4115d01813ea2f7dfcb7625b49b08781d16285f",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master"
+                },
+                "time": "2015-08-22 09:51:22",
+                "type": "lighp-module",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "Developer tools",
+                "support": {
+                    "source": "https://github.com/lighp/module-backend-devtools/tree/master",
+                    "issues": "https://github.com/lighp/module-backend-devtools/issues"
+                }
+            }
+        },
         "lighp/module-backend-main": {
             "dev-master": {
                 "name": "lighp/module-backend-main",

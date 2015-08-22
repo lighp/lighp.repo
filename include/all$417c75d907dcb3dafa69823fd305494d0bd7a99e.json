@@ -494,19 +494,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/module-backend-main.git",
-                    "reference": "30a0247b10674580a45fb05cd5998668527c3c2f"
+                    "reference": "51f62698a890e496669fb03c91c4af728f5a976f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/module-backend-main/zipball/30a0247b10674580a45fb05cd5998668527c3c2f",
-                    "reference": "30a0247b10674580a45fb05cd5998668527c3c2f",
+                    "url": "https://api.github.com/repos/lighp/module-backend-main/zipball/51f62698a890e496669fb03c91c4af728f5a976f",
+                    "reference": "51f62698a890e496669fb03c91c4af728f5a976f",
                     "shasum": ""
                 },
                 "require": {
                     "lighp/composer-lighp-installers": "dev-master",
                     "lighp/lib-arraysearcher": "dev-master"
                 },
-                "time": "2015-07-31 11:44:13",
+                "time": "2015-08-22 09:57:11",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"

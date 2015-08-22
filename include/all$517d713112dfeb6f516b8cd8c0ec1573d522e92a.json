@@ -719,19 +719,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/module-blog.git",
-                    "reference": "364824a0164672033a3f29f84ed5ef52bc4e88c0"
+                    "reference": "ed29bc3f5ad6c6f0d54a9a02d80ae0e3e9cdf080"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/module-blog/zipball/364824a0164672033a3f29f84ed5ef52bc4e88c0",
-                    "reference": "364824a0164672033a3f29f84ed5ef52bc4e88c0",
+                    "url": "https://api.github.com/repos/lighp/module-blog/zipball/ed29bc3f5ad6c6f0d54a9a02d80ae0e3e9cdf080",
+                    "reference": "ed29bc3f5ad6c6f0d54a9a02d80ae0e3e9cdf080",
                     "shasum": ""
                 },
                 "require": {
                     "lighp/composer-lighp-installers": "dev-master",
                     "lighp/lib-captcha": "dev-master"
                 },
-                "time": "2015-08-22 09:03:29",
+                "time": "2015-08-22 10:42:14",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"

@@ -265,18 +265,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/lib-arraysearcher.git",
-                    "reference": "33bbf552f46d021f3f1c6f3b831b70d638a1a60a"
+                    "reference": "5b32afb05c094e2d8a01006ed533c5a980dba5d8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/lib-arraysearcher/zipball/33bbf552f46d021f3f1c6f3b831b70d638a1a60a",
-                    "reference": "33bbf552f46d021f3f1c6f3b831b70d638a1a60a",
+                    "url": "https://api.github.com/repos/lighp/lib-arraysearcher/zipball/5b32afb05c094e2d8a01006ed533c5a980dba5d8",
+                    "reference": "5b32afb05c094e2d8a01006ed533c5a980dba5d8",
                     "shasum": ""
                 },
                 "require": {
                     "lighp/composer-lighp-installers": "dev-master"
                 },
-                "time": "2015-08-22 11:37:06",
+                "time": "2015-08-22 11:42:29",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"

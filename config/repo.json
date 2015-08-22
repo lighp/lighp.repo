@@ -20,6 +20,7 @@
         { "type": "vcs", "url": "https://github.com/lighp/module-portfolio" },
         { "type": "vcs", "url": "https://github.com/lighp/module-contact" },
         { "type": "vcs", "url": "https://github.com/lighp/module-pages" },
+        { "type": "vcs", "url": "https://github.com/lighp/module-backend-devtools" },
         
         { "type": "vcs", "url": "https://github.com/components/bootstrap-cyborg" },
 		{

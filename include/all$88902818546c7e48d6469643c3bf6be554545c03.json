@@ -339,12 +339,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/lighp-core.git",
-                    "reference": "625710b7a8fb122690e01318dd0c56c0d7c27be0"
+                    "reference": "2d603643bc792575a9d825517cba728541b00e7e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/lighp-core/zipball/625710b7a8fb122690e01318dd0c56c0d7c27be0",
-                    "reference": "625710b7a8fb122690e01318dd0c56c0d7c27be0",
+                    "url": "https://api.github.com/repos/lighp/lighp-core/zipball/2d603643bc792575a9d825517cba728541b00e7e",
+                    "reference": "2d603643bc792575a9d825517cba728541b00e7e",
                     "shasum": ""
                 },
                 "require": {
@@ -356,7 +356,7 @@
                     "mustangostang/spyc": "0.5.*@dev",
                     "php": ">=5.4.0"
                 },
-                "time": "2015-08-22 09:03:21",
+                "time": "2015-08-23 16:49:01",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"
@@ -719,19 +719,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/module-blog.git",
-                    "reference": "ed29bc3f5ad6c6f0d54a9a02d80ae0e3e9cdf080"
+                    "reference": "a2b774677c99bbf59a97b6d23a1fd84da7d0de27"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/module-blog/zipball/ed29bc3f5ad6c6f0d54a9a02d80ae0e3e9cdf080",
-                    "reference": "ed29bc3f5ad6c6f0d54a9a02d80ae0e3e9cdf080",
+                    "url": "https://api.github.com/repos/lighp/module-blog/zipball/a2b774677c99bbf59a97b6d23a1fd84da7d0de27",
+                    "reference": "a2b774677c99bbf59a97b6d23a1fd84da7d0de27",
                     "shasum": ""
                 },
                 "require": {
                     "lighp/composer-lighp-installers": "dev-master",
                     "lighp/lib-captcha": "dev-master"
                 },
-                "time": "2015-08-22 10:42:14",
+                "time": "2015-08-23 16:49:09",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"

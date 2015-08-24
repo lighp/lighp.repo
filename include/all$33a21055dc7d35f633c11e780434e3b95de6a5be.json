@@ -191,18 +191,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/dao-jsondb.git",
-                    "reference": "fa66d5759e76f077eaacd8410a9ffe1a52888582"
+                    "reference": "f65b29134711721c0be78feb87e825ac9073d24b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/dao-jsondb/zipball/fa66d5759e76f077eaacd8410a9ffe1a52888582",
-                    "reference": "fa66d5759e76f077eaacd8410a9ffe1a52888582",
+                    "url": "https://api.github.com/repos/lighp/dao-jsondb/zipball/f65b29134711721c0be78feb87e825ac9073d24b",
+                    "reference": "f65b29134711721c0be78feb87e825ac9073d24b",
                     "shasum": ""
                 },
                 "require": {
                     "lighp/composer-lighp-installers": "dev-master"
                 },
-                "time": "2015-08-24 19:15:49",
+                "time": "2015-08-24 19:33:33",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"
@@ -376,12 +376,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/lighp-core.git",
-                    "reference": "0d68d39815c6f30581d645c60d8b450eefc399f1"
+                    "reference": "28d1cc467dca2362c3b4653eee7dd84b859563b5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/lighp-core/zipball/0d68d39815c6f30581d645c60d8b450eefc399f1",
-                    "reference": "0d68d39815c6f30581d645c60d8b450eefc399f1",
+                    "url": "https://api.github.com/repos/lighp/lighp-core/zipball/28d1cc467dca2362c3b4653eee7dd84b859563b5",
+                    "reference": "28d1cc467dca2362c3b4653eee7dd84b859563b5",
                     "shasum": ""
                 },
                 "require": {
@@ -393,7 +393,7 @@
                     "mustangostang/spyc": "0.5.*@dev",
                     "php": ">=5.4.0"
                 },
-                "time": "2015-08-24 19:15:36",
+                "time": "2015-08-24 19:33:26",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"

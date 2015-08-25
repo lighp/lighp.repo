@@ -376,12 +376,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/lighp-core.git",
-                    "reference": "a525da1fe1597970597ce8c9dc5484ece5d1d7f7"
+                    "reference": "48fec8ec92b255dffdfc6e08f3a814c1de3d36aa"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/lighp-core/zipball/a525da1fe1597970597ce8c9dc5484ece5d1d7f7",
-                    "reference": "a525da1fe1597970597ce8c9dc5484ece5d1d7f7",
+                    "url": "https://api.github.com/repos/lighp/lighp-core/zipball/48fec8ec92b255dffdfc6e08f3a814c1de3d36aa",
+                    "reference": "48fec8ec92b255dffdfc6e08f3a814c1de3d36aa",
                     "shasum": ""
                 },
                 "require": {
@@ -393,7 +393,7 @@
                     "mustangostang/spyc": "0.5.*@dev",
                     "php": ">=5.4.0"
                 },
-                "time": "2015-08-25 11:10:01",
+                "time": "2015-08-25 11:15:00",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"

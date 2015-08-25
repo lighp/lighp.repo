@@ -531,12 +531,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/module-backend-main.git",
-                    "reference": "6e41d637503e85625464b03ead3640d1cab399c3"
+                    "reference": "24557bbbc40fdab50ce087d9b4961aada12f4f2e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/module-backend-main/zipball/6e41d637503e85625464b03ead3640d1cab399c3",
-                    "reference": "6e41d637503e85625464b03ead3640d1cab399c3",
+                    "url": "https://api.github.com/repos/lighp/module-backend-main/zipball/24557bbbc40fdab50ce087d9b4961aada12f4f2e",
+                    "reference": "24557bbbc40fdab50ce087d9b4961aada12f4f2e",
                     "shasum": ""
                 },
                 "require": {
@@ -544,7 +544,7 @@
                     "lighp/lib-arraysearcher": "dev-master",
                     "lighp/lib-notifications": "dev-master"
                 },
-                "time": "2015-08-25 16:59:10",
+                "time": "2015-08-25 19:51:13",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"
@@ -946,19 +946,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/module-users.git",
-                    "reference": "4d67f2a15a10a56a389e3871fe5f32c8256771b3"
+                    "reference": "493b161c3ef791ae097f36488e5d0ae1df39dd6d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/module-users/zipball/4d67f2a15a10a56a389e3871fe5f32c8256771b3",
-                    "reference": "4d67f2a15a10a56a389e3871fe5f32c8256771b3",
+                    "url": "https://api.github.com/repos/lighp/module-users/zipball/493b161c3ef791ae097f36488e5d0ae1df39dd6d",
+                    "reference": "493b161c3ef791ae097f36488e5d0ae1df39dd6d",
                     "shasum": ""
                 },
                 "require": {
                     "lighp/composer-lighp-installers": "dev-master",
                     "lighp/dao-jsondb": "dev-master"
                 },
-                "time": "2015-07-26 17:17:12",
+                "time": "2015-08-25 19:44:35",
                 "type": "lighp-module",
                 "license": [
                     "MIT"

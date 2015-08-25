@@ -339,18 +339,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/lib-notifications.git",
-                    "reference": "fc6b9f8d46aa7459e5ac2ea2399d7f6961925bec"
+                    "reference": "f549e934f8020a940d6d219961f4f83bf75a1200"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/lib-notifications/zipball/fc6b9f8d46aa7459e5ac2ea2399d7f6961925bec",
-                    "reference": "fc6b9f8d46aa7459e5ac2ea2399d7f6961925bec",
+                    "url": "https://api.github.com/repos/lighp/lib-notifications/zipball/f549e934f8020a940d6d219961f4f83bf75a1200",
+                    "reference": "f549e934f8020a940d6d219961f4f83bf75a1200",
                     "shasum": ""
                 },
                 "require": {
                     "lighp/composer-lighp-installers": "dev-master"
                 },
-                "time": "2015-08-24 19:16:21",
+                "time": "2015-08-25 11:05:11",
                 "type": "lighp-module",
                 "license": [
                     "MIT"

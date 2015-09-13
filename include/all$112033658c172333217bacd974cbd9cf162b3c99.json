@@ -331,6 +331,44 @@
                 }
             }
         },
+        "lighp/lib-mailer": {
+            "dev-master": {
+                "name": "lighp/lib-mailer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/lib-mailer.git",
+                    "reference": "8c6851d236741d15d5437452aedf979862311f63"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/lib-mailer/zipball/8c6851d236741d15d5437452aedf979862311f63",
+                    "reference": "8c6851d236741d15d5437452aedf979862311f63",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master",
+                    "swiftmailer/swiftmailer": "^6.0@dev"
+                },
+                "time": "2015-09-09 17:36:30",
+                "type": "lighp-module",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "A library to send emails.",
+                "support": {
+                    "source": "https://github.com/lighp/lib-mailer/tree/master",
+                    "issues": "https://github.com/lighp/lib-mailer/issues"
+                }
+            }
+        },
         "lighp/lib-notifications": {
             "dev-master": {
                 "name": "lighp/lib-notifications",

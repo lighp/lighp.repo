@@ -44,7 +44,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     Lighp
                             </h1>
                         <div id="lastupdate">
-                Last updated: <time datetime="2015-09-13T21:40:29+0200">Sun, 13 Sep 2015 21:40:29 +0200</time>
+                Last updated: <time datetime="2015-09-13T21:44:21+0200">Sun, 13 Sep 2015 21:44:21 +0200</time>
             </div>
         </div>
         <div id="bd">
@@ -145,6 +145,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                                             <li><a href="#lighp/dao-pdo">lighp/dao-pdo</a></li>
                                                                                             <li><a href="#lighp/lib-arraysearcher">lighp/lib-arraysearcher</a></li>
                                                                                             <li><a href="#lighp/lib-captcha">lighp/lib-captcha</a></li>
+                                                                                            <li><a href="#lighp/lib-mailer">lighp/lib-mailer</a></li>
                                                                                             <li><a href="#lighp/lib-notifications">lighp/lib-notifications</a></li>
                                                                                             <li><a href="#lighp/lighp-core">lighp/lighp-core</a></li>
                                                                                             <li><a href="#lighp/module-api-base">lighp/module-api-base</a></li>
@@ -306,6 +307,43 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                                                                 <ul>
                                                                                             <li><a href="#lighp/module-blog">lighp/module-blog</a></li>
                                                                                             <li><a href="#lighp/module-contact">lighp/module-contact</a></li>
+                                                                                    </ul>
+                                                                    </td>
+                            </tr>
+                        </table>
+                    </div>
+                                    <div>
+                        <h3 id="lighp/lib-mailer">lighp/lib-mailer</h3>
+                                                    <p>A library to send emails.</p>
+                                                <table>
+                                                                                        <tr>
+                                    <th>License</th>
+                                    <td>MIT</td>
+                                </tr>
+                                                                                        <tr>
+                                    <th>Authors</th>
+                                    <td>
+                                        emersion                                    </td>
+                                </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/lighp/lib-mailer/tree/master">https://github.com/lighp/lib-mailer/tree/master</a></li>
+                                                                            <li>Issues: <a href="https://github.com/lighp/lib-mailer/issues">https://github.com/lighp/lib-mailer/issues</a></li>
+                                                                        </ul>
+                                </tr>
+                            </td>
+                                                        <tr>
+                                <th>Releases</th>
+                                <td>
+                                    <a href="https://api.github.com/repos/lighp/lib-mailer/zipball/8c6851d236741d15d5437452aedf979862311f63" title="8c6851d236741d15d5437452aedf979862311f63">dev-master</a>                                </td>
+                            </tr>
+                            <tr>
+                                <th>Required by</th>
+                                <td>
+                                                                                                                <ul>
+                                                                                            <li><a href="#lighp/lighp-core">lighp/lighp-core</a></li>
                                                                                     </ul>
                                                                     </td>
                             </tr>
@@ -843,7 +881,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
             </div>
         </div>
         <div id="ft">
-            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2015-09-13T21:40:29+0200</small></p>
+            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2015-09-13T21:44:21+0200</small></p>
         </div>
     </div>
 
@@ -894,7 +932,7 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
         $(window).trigger("hashchange");
         var $lastUpdate = $('#lastupdate time');
         function updateDate() {
-            $lastUpdate.text(moment('2015-09-13T21:40:29+0200').fromNow());
+            $lastUpdate.text(moment('2015-09-13T21:44:21+0200').fromNow());
         }
         setInterval(updateDate, 5000);
         updateDate();

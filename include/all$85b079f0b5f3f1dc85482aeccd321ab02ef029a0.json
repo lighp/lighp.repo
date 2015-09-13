@@ -376,24 +376,25 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/lighp-core.git",
-                    "reference": "5f6f70936b8496d7668031ab633894caf901443a"
+                    "reference": "388ad2e7db6f13f94ee0c5baa6db8b0cd23a6a0c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/lighp-core/zipball/5f6f70936b8496d7668031ab633894caf901443a",
-                    "reference": "5f6f70936b8496d7668031ab633894caf901443a",
+                    "url": "https://api.github.com/repos/lighp/lighp-core/zipball/388ad2e7db6f13f94ee0c5baa6db8b0cd23a6a0c",
+                    "reference": "388ad2e7db6f13f94ee0c5baa6db8b0cd23a6a0c",
                     "shasum": ""
                 },
                 "require": {
                     "ircmaxell/password-compat": "dev-master",
                     "lighp/composer-lighp-installers": "dev-master",
+                    "lighp/lib-mailer": "dev-master",
                     "lighp/module-api-base": "dev-master",
                     "lighp/module-users": "dev-master",
                     "mustache/mustache": "dev-master",
                     "mustangostang/spyc": "0.5.*@dev",
                     "php": ">=5.4.0"
                 },
-                "time": "2015-09-05 16:25:59",
+                "time": "2015-09-09 20:58:25",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"
@@ -757,12 +758,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/module-blog.git",
-                    "reference": "23cb07f951b23cbabd1b0cec7ee2e5833f88a610"
+                    "reference": "64abcedfea859b1f1791055d4c00d3b083a32626"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/module-blog/zipball/23cb07f951b23cbabd1b0cec7ee2e5833f88a610",
-                    "reference": "23cb07f951b23cbabd1b0cec7ee2e5833f88a610",
+                    "url": "https://api.github.com/repos/lighp/module-blog/zipball/64abcedfea859b1f1791055d4c00d3b083a32626",
+                    "reference": "64abcedfea859b1f1791055d4c00d3b083a32626",
                     "shasum": ""
                 },
                 "require": {
@@ -770,7 +771,7 @@
                     "lighp/lib-captcha": "dev-master",
                     "lighp/lib-notifications": "dev-master"
                 },
-                "time": "2015-09-06 08:17:36",
+                "time": "2015-09-13 19:38:22",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"

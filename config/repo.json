@@ -9,6 +9,7 @@
         { "type": "vcs", "url": "https://github.com/lighp/lib-arraysearcher" },
         { "type": "vcs", "url": "https://github.com/lighp/lib-captcha" },
         { "type": "vcs", "url": "https://github.com/lighp/lib-notifications" },
+        { "type": "vcs", "url": "https://github.com/lighp/lib-mailer" },
         { "type": "vcs", "url": "https://github.com/lighp/module-backend-main" },
         { "type": "vcs", "url": "https://github.com/lighp/module-users" },
         { "type": "vcs", "url": "https://github.com/lighp/module-backend-routes" },

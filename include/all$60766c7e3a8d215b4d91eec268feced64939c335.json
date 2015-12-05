@@ -414,12 +414,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/lighp-core.git",
-                    "reference": "388ad2e7db6f13f94ee0c5baa6db8b0cd23a6a0c"
+                    "reference": "a958704939e38275d41aa774832cc12347470093"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/lighp-core/zipball/388ad2e7db6f13f94ee0c5baa6db8b0cd23a6a0c",
-                    "reference": "388ad2e7db6f13f94ee0c5baa6db8b0cd23a6a0c",
+                    "url": "https://api.github.com/repos/lighp/lighp-core/zipball/a958704939e38275d41aa774832cc12347470093",
+                    "reference": "a958704939e38275d41aa774832cc12347470093",
                     "shasum": ""
                 },
                 "require": {
@@ -432,7 +432,7 @@
                     "mustangostang/spyc": "0.5.*@dev",
                     "php": ">=5.4.0"
                 },
-                "time": "2015-09-09 20:58:25",
+                "time": "2015-12-05 09:28:30",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"
@@ -570,12 +570,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/module-backend-main.git",
-                    "reference": "3e213f20a21ceaf1e5baed23d843e7bdce171092"
+                    "reference": "0cac9b938606e5289f0176a56db80d90ed8cde25"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/module-backend-main/zipball/3e213f20a21ceaf1e5baed23d843e7bdce171092",
-                    "reference": "3e213f20a21ceaf1e5baed23d843e7bdce171092",
+                    "url": "https://api.github.com/repos/lighp/module-backend-main/zipball/0cac9b938606e5289f0176a56db80d90ed8cde25",
+                    "reference": "0cac9b938606e5289f0176a56db80d90ed8cde25",
                     "shasum": ""
                 },
                 "require": {
@@ -583,7 +583,7 @@
                     "lighp/lib-arraysearcher": "dev-master",
                     "lighp/lib-notifications": "dev-master"
                 },
-                "time": "2015-08-31 13:49:52",
+                "time": "2015-12-05 09:33:52",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"
@@ -796,12 +796,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/module-blog.git",
-                    "reference": "9427340f23bcc2537eff9f345bc322c262872564"
+                    "reference": "5c59002a046bfc4d5c9a0a5a442543b794f91f31"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/module-blog/zipball/9427340f23bcc2537eff9f345bc322c262872564",
-                    "reference": "9427340f23bcc2537eff9f345bc322c262872564",
+                    "url": "https://api.github.com/repos/lighp/module-blog/zipball/5c59002a046bfc4d5c9a0a5a442543b794f91f31",
+                    "reference": "5c59002a046bfc4d5c9a0a5a442543b794f91f31",
                     "shasum": ""
                 },
                 "require": {
@@ -809,7 +809,7 @@
                     "lighp/lib-captcha": "dev-master",
                     "lighp/lib-notifications": "dev-master"
                 },
-                "time": "2015-09-13 20:00:30",
+                "time": "2015-12-05 09:48:58",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"

@@ -1,0 +1,1019 @@
+{
+    "packages": {
+        "components/bootstrap-cyborg": {
+            "2.3.1": {
+                "name": "components/bootstrap-cyborg",
+                "version": "2.3.1",
+                "version_normalized": "2.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/components/bootstrap-cyborg.git",
+                    "reference": "0263e22e68ab11acd49c51f3afc72662603b613f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/components/bootstrap-cyborg/zipball/0263e22e68ab11acd49c51f3afc72662603b613f",
+                    "reference": "0263e22e68ab11acd49c51f3afc72662603b613f",
+                    "shasum": ""
+                },
+                "require": {
+                    "components/bootstrap": "*"
+                },
+                "time": "2013-04-17 02:34:56",
+                "type": "component",
+                "extra": {
+                    "component": {
+                        "styles": [
+                            "css/bootstrap.css",
+                            "css/bootstrap-responsive.css"
+                        ],
+                        "files": [
+                            "img/glyphicons-halflings.png",
+                            "img/glyphicons-halflings-white.png"
+                        ],
+                        "shim": {
+                            "deps": [
+                                "bootstrap"
+                            ]
+                        }
+                    }
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Thomas Park",
+                        "homepage": "http://github.com/thomaspark"
+                    }
+                ],
+                "description": "Shim repository for the Bootstrap Bootswatch Cyborg theme.",
+                "homepage": "http://bootswatch.com/",
+                "keywords": [
+                    "bootstrap",
+                    "css"
+                ],
+                "support": {
+                    "source": "https://github.com/components/bootstrap-cyborg/tree/2.3.1",
+                    "issues": "https://github.com/components/bootstrap-cyborg/issues"
+                }
+            },
+            "dev-master": {
+                "name": "components/bootstrap-cyborg",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/components/bootstrap-cyborg.git",
+                    "reference": "6ee91638103c4ab09d204f796fedee567d0dfb70"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/components/bootstrap-cyborg/zipball/6ee91638103c4ab09d204f796fedee567d0dfb70",
+                    "reference": "6ee91638103c4ab09d204f796fedee567d0dfb70",
+                    "shasum": ""
+                },
+                "require": {
+                    "components/bootstrap": "*"
+                },
+                "time": "2013-05-02 23:55:46",
+                "type": "component",
+                "extra": {
+                    "component": {
+                        "styles": [
+                            "css/bootstrap.css",
+                            "css/bootstrap-responsive.css"
+                        ],
+                        "files": [
+                            "img/glyphicons-halflings.png",
+                            "img/glyphicons-halflings-white.png"
+                        ],
+                        "shim": {
+                            "deps": [
+                                "bootstrap"
+                            ]
+                        }
+                    }
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Thomas Park",
+                        "homepage": "http://github.com/thomaspark"
+                    }
+                ],
+                "description": "Shim repository for the Bootstrap Bootswatch Cyborg theme.",
+                "homepage": "http://bootswatch.com/",
+                "keywords": [
+                    "bootstrap",
+                    "css"
+                ],
+                "support": {
+                    "source": "https://github.com/components/bootstrap-cyborg/tree/master",
+                    "issues": "https://github.com/components/bootstrap-cyborg/issues"
+                }
+            }
+        },
+        "components/mustache": {
+            "2.1.3": {
+                "name": "components/mustache",
+                "version": "2.1.3",
+                "version_normalized": "2.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/janl/mustache.js.git",
+                    "reference": "2.1.3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/janl/mustache.js/archive/v2.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "robloach/component-installer": "*"
+                },
+                "type": "component",
+                "extra": {
+                    "component": {
+                        "scripts": [
+                            "mustache.js"
+                        ]
+                    }
+                }
+            }
+        },
+        "lighp/composer-lighp-installers": {
+            "dev-master": {
+                "name": "lighp/composer-lighp-installers",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/composer-lighp-installers.git",
+                    "reference": "1b6b1ac99b6768c2622f73c77daf86524bf84515"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/composer-lighp-installers/zipball/1b6b1ac99b6768c2622f73c77daf86524bf84515",
+                    "reference": "1b6b1ac99b6768c2622f73c77daf86524bf84515",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "1.0.0"
+                },
+                "time": "2015-07-25 19:05:27",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "lighp\\Composer\\Plugin"
+                },
+                "autoload": {
+                    "psr-0": {
+                        "lighp\\Composer": "src/"
+                    }
+                },
+                "license": [
+                    "GPLv3"
+                ],
+                "support": {
+                    "source": "https://github.com/lighp/composer-lighp-installers/tree/master",
+                    "issues": "https://github.com/lighp/composer-lighp-installers/issues"
+                }
+            }
+        },
+        "lighp/dao-jsondb": {
+            "dev-master": {
+                "name": "lighp/dao-jsondb",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/dao-jsondb.git",
+                    "reference": "0b050a3283a1e59e20cc1306d40c610a98753a44"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/dao-jsondb/zipball/0b050a3283a1e59e20cc1306d40c610a98753a44",
+                    "reference": "0b050a3283a1e59e20cc1306d40c610a98753a44",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master"
+                },
+                "time": "2015-08-31 13:49:45",
+                "type": "lighp-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "A light-weight database management system based on JSON.",
+                "support": {
+                    "source": "https://github.com/lighp/dao-jsondb/tree/master",
+                    "issues": "https://github.com/lighp/dao-jsondb/issues"
+                }
+            }
+        },
+        "lighp/dao-pdo": {
+            "dev-master": {
+                "name": "lighp/dao-pdo",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/dao-pdo.git",
+                    "reference": "299aa21654359a69f107323c8794c064c3981e82"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/dao-pdo/zipball/299aa21654359a69f107323c8794c064c3981e82",
+                    "reference": "299aa21654359a69f107323c8794c064c3981e82",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master"
+                },
+                "time": "2014-04-23 12:02:29",
+                "type": "lighp-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "A PDO provider.",
+                "support": {
+                    "source": "https://github.com/lighp/dao-pdo/tree/master",
+                    "issues": "https://github.com/lighp/dao-pdo/issues"
+                }
+            }
+        },
+        "lighp/lib-arraysearcher": {
+            "dev-master": {
+                "name": "lighp/lib-arraysearcher",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/lib-arraysearcher.git",
+                    "reference": "5b32afb05c094e2d8a01006ed533c5a980dba5d8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/lib-arraysearcher/zipball/5b32afb05c094e2d8a01006ed533c5a980dba5d8",
+                    "reference": "5b32afb05c094e2d8a01006ed533c5a980dba5d8",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master"
+                },
+                "time": "2015-08-22 11:42:29",
+                "type": "lighp-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "A library to search through arrays.",
+                "support": {
+                    "source": "https://github.com/lighp/lib-arraysearcher/tree/master",
+                    "issues": "https://github.com/lighp/lib-arraysearcher/issues"
+                }
+            }
+        },
+        "lighp/lib-captcha": {
+            "dev-master": {
+                "name": "lighp/lib-captcha",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/lib-captcha.git",
+                    "reference": "4a6ce339e638e3d47d121b025429c85ac0b1e29d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/lib-captcha/zipball/4a6ce339e638e3d47d121b025429c85ac0b1e29d",
+                    "reference": "4a6ce339e638e3d47d121b025429c85ac0b1e29d",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master"
+                },
+                "time": "2015-08-31 13:49:34",
+                "type": "lighp-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "A small library to generate captchas.",
+                "support": {
+                    "source": "https://github.com/lighp/lib-captcha/tree/master",
+                    "issues": "https://github.com/lighp/lib-captcha/issues"
+                }
+            }
+        },
+        "lighp/lib-mailer": {
+            "dev-master": {
+                "name": "lighp/lib-mailer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/lib-mailer.git",
+                    "reference": "8c6851d236741d15d5437452aedf979862311f63"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/lib-mailer/zipball/8c6851d236741d15d5437452aedf979862311f63",
+                    "reference": "8c6851d236741d15d5437452aedf979862311f63",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master",
+                    "swiftmailer/swiftmailer": "^6.0@dev"
+                },
+                "time": "2015-09-09 17:36:30",
+                "type": "lighp-module",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "A library to send emails.",
+                "support": {
+                    "source": "https://github.com/lighp/lib-mailer/tree/master",
+                    "issues": "https://github.com/lighp/lib-mailer/issues"
+                }
+            }
+        },
+        "lighp/lib-notifications": {
+            "dev-master": {
+                "name": "lighp/lib-notifications",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/lib-notifications.git",
+                    "reference": "5f6b4a418e8b9191fe17ce55c7ae2342161311f2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/lib-notifications/zipball/5f6b4a418e8b9191fe17ce55c7ae2342161311f2",
+                    "reference": "5f6b4a418e8b9191fe17ce55c7ae2342161311f2",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master"
+                },
+                "time": "2015-08-25 16:40:26",
+                "type": "lighp-module",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "A notifications library",
+                "support": {
+                    "source": "https://github.com/lighp/lib-notifications/tree/master",
+                    "issues": "https://github.com/lighp/lib-notifications/issues"
+                }
+            }
+        },
+        "lighp/lighp-core": {
+            "dev-master": {
+                "name": "lighp/lighp-core",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/lighp-core.git",
+                    "reference": "a958704939e38275d41aa774832cc12347470093"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/lighp-core/zipball/a958704939e38275d41aa774832cc12347470093",
+                    "reference": "a958704939e38275d41aa774832cc12347470093",
+                    "shasum": ""
+                },
+                "require": {
+                    "ircmaxell/password-compat": "dev-master",
+                    "lighp/composer-lighp-installers": "dev-master",
+                    "lighp/lib-mailer": "dev-master",
+                    "lighp/module-api-base": "dev-master",
+                    "lighp/module-users": "dev-master",
+                    "mustache/mustache": "dev-master",
+                    "mustangostang/spyc": "0.5.*@dev",
+                    "php": ">=5.4.0"
+                },
+                "time": "2015-12-05 09:28:30",
+                "type": "lighp-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "homepage": "http://emersion.fr"
+                    }
+                ],
+                "description": "A light-weight php framework based on a package system.",
+                "homepage": "http://lighp.github.io/lighp/",
+                "support": {
+                    "source": "https://github.com/lighp/lighp-core/tree/master",
+                    "issues": "https://github.com/lighp/lighp-core/issues"
+                }
+            }
+        },
+        "lighp/module-api-base": {
+            "dev-master": {
+                "name": "lighp/module-api-base",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-api-base.git",
+                    "reference": "422d60ed5d90e36628880d457b585f59d22cee18"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-api-base/zipball/422d60ed5d90e36628880d457b585f59d22cee18",
+                    "reference": "422d60ed5d90e36628880d457b585f59d22cee18",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master"
+                },
+                "time": "2015-07-31 15:20:42",
+                "type": "lighp-module",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "Base API module.",
+                "support": {
+                    "source": "https://github.com/lighp/module-api-base/tree/master",
+                    "issues": "https://github.com/lighp/module-api-base/issues"
+                }
+            }
+        },
+        "lighp/module-backend-assets": {
+            "dev-master": {
+                "name": "lighp/module-backend-assets",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-backend-assets.git",
+                    "reference": "e478cd221fdcdeca361229b36fb62a57af3dd7a7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-backend-assets/zipball/e478cd221fdcdeca361229b36fb62a57af3dd7a7",
+                    "reference": "e478cd221fdcdeca361229b36fb62a57af3dd7a7",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master"
+                },
+                "time": "2015-08-11 18:25:20",
+                "type": "lighp-module",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "Module to manage assets.",
+                "support": {
+                    "source": "https://github.com/lighp/module-backend-assets/tree/master",
+                    "issues": "https://github.com/lighp/module-backend-assets/issues"
+                }
+            }
+        },
+        "lighp/module-backend-devtools": {
+            "dev-master": {
+                "name": "lighp/module-backend-devtools",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-backend-devtools.git",
+                    "reference": "a4115d01813ea2f7dfcb7625b49b08781d16285f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-backend-devtools/zipball/a4115d01813ea2f7dfcb7625b49b08781d16285f",
+                    "reference": "a4115d01813ea2f7dfcb7625b49b08781d16285f",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master"
+                },
+                "time": "2015-08-22 09:51:22",
+                "type": "lighp-module",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "Developer tools",
+                "support": {
+                    "source": "https://github.com/lighp/module-backend-devtools/tree/master",
+                    "issues": "https://github.com/lighp/module-backend-devtools/issues"
+                }
+            }
+        },
+        "lighp/module-backend-main": {
+            "dev-master": {
+                "name": "lighp/module-backend-main",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-backend-main.git",
+                    "reference": "0cac9b938606e5289f0176a56db80d90ed8cde25"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-backend-main/zipball/0cac9b938606e5289f0176a56db80d90ed8cde25",
+                    "reference": "0cac9b938606e5289f0176a56db80d90ed8cde25",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master",
+                    "lighp/lib-arraysearcher": "dev-master",
+                    "lighp/lib-notifications": "dev-master"
+                },
+                "time": "2015-12-05 09:33:52",
+                "type": "lighp-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "Main module for backend.",
+                "support": {
+                    "source": "https://github.com/lighp/module-backend-main/tree/master",
+                    "issues": "https://github.com/lighp/module-backend-main/issues"
+                }
+            }
+        },
+        "lighp/module-backend-packagecontrol": {
+            "0.4": {
+                "name": "lighp/module-backend-packagecontrol",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-backend-packagecontrol.git",
+                    "reference": "1be502ec60a1fbcc70f68b713c011a7d05641493"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-backend-packagecontrol/zipball/1be502ec60a1fbcc70f68b713c011a7d05641493",
+                    "reference": "1be502ec60a1fbcc70f68b713c011a7d05641493",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "1.0.*@dev",
+                    "lighp/composer-lighp-installers": "dev-master",
+                    "symfony/process": "~2.6@dev"
+                },
+                "time": "2014-10-04 10:36:29",
+                "type": "lighp-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "A package control module, based on Composer.",
+                "support": {
+                    "source": "https://github.com/lighp/module-backend-packagecontrol/tree/v0.4",
+                    "issues": "https://github.com/lighp/module-backend-packagecontrol/issues"
+                }
+            },
+            "dev-master": {
+                "name": "lighp/module-backend-packagecontrol",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-backend-packagecontrol.git",
+                    "reference": "96ab2085503e22f7738d64738262712257edfb05"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-backend-packagecontrol/zipball/96ab2085503e22f7738d64738262712257edfb05",
+                    "reference": "96ab2085503e22f7738d64738262712257edfb05",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "1.0.*@dev",
+                    "lighp/composer-lighp-installers": "dev-master",
+                    "sensiolabs/ansi-to-html": "^1.1@dev",
+                    "symfony/process": "~2.6@dev"
+                },
+                "time": "2015-08-16 09:25:37",
+                "type": "lighp-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "A package control module, based on Composer.",
+                "support": {
+                    "source": "https://github.com/lighp/module-backend-packagecontrol/tree/master",
+                    "issues": "https://github.com/lighp/module-backend-packagecontrol/issues"
+                }
+            }
+        },
+        "lighp/module-backend-routes": {
+            "dev-master": {
+                "name": "lighp/module-backend-routes",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-backend-routes.git",
+                    "reference": "9dcabeb0b4a61c8cc024c19054741519393a6461"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-backend-routes/zipball/9dcabeb0b4a61c8cc024c19054741519393a6461",
+                    "reference": "9dcabeb0b4a61c8cc024c19054741519393a6461",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master"
+                },
+                "time": "2015-08-09 15:26:26",
+                "type": "lighp-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "Backend module to manage routes.",
+                "support": {
+                    "source": "https://github.com/lighp/module-backend-routes/tree/master",
+                    "issues": "https://github.com/lighp/module-backend-routes/issues"
+                }
+            }
+        },
+        "lighp/module-backend-websiteconfig": {
+            "dev-master": {
+                "name": "lighp/module-backend-websiteconfig",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-backend-websiteconfig.git",
+                    "reference": "217e238c530f8eff3de7927f3922ba606e9dcfd1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-backend-websiteconfig/zipball/217e238c530f8eff3de7927f3922ba606e9dcfd1",
+                    "reference": "217e238c530f8eff3de7927f3922ba606e9dcfd1",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master"
+                },
+                "time": "2015-07-31 11:44:37",
+                "type": "lighp-module",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "Backend module to configure website config.",
+                "support": {
+                    "source": "https://github.com/lighp/module-backend-websiteconfig/tree/master",
+                    "issues": "https://github.com/lighp/module-backend-websiteconfig/issues"
+                }
+            }
+        },
+        "lighp/module-blog": {
+            "0.5.2": {
+                "name": "lighp/module-blog",
+                "version": "0.5.2",
+                "version_normalized": "0.5.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-blog.git",
+                    "reference": "d3961e6903b229362f2db1f2ad16678e56a41b52"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-blog/zipball/d3961e6903b229362f2db1f2ad16678e56a41b52",
+                    "reference": "d3961e6903b229362f2db1f2ad16678e56a41b52",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master",
+                    "lighp/lib-captcha": "dev-master"
+                },
+                "time": "2014-04-23 12:19:08",
+                "type": "lighp-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "A minimalistic blog module, supporting comments.",
+                "support": {
+                    "source": "https://github.com/lighp/module-blog/tree/v0.5.2",
+                    "issues": "https://github.com/lighp/module-blog/issues"
+                }
+            },
+            "dev-master": {
+                "name": "lighp/module-blog",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-blog.git",
+                    "reference": "f4fc812cdfc4bd97bf3cb0f53895a17d50714b37"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-blog/zipball/f4fc812cdfc4bd97bf3cb0f53895a17d50714b37",
+                    "reference": "f4fc812cdfc4bd97bf3cb0f53895a17d50714b37",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master",
+                    "lighp/lib-captcha": "dev-master",
+                    "lighp/lib-notifications": "dev-master"
+                },
+                "time": "2015-12-08 09:33:21",
+                "type": "lighp-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "A minimalistic blog module, supporting comments.",
+                "support": {
+                    "source": "https://github.com/lighp/module-blog/tree/master",
+                    "issues": "https://github.com/lighp/module-blog/issues"
+                }
+            }
+        },
+        "lighp/module-contact": {
+            "dev-master": {
+                "name": "lighp/module-contact",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-contact.git",
+                    "reference": "58d852084d4664146ade9e535dd36e7d5e61b468"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-contact/zipball/58d852084d4664146ade9e535dd36e7d5e61b468",
+                    "reference": "58d852084d4664146ade9e535dd36e7d5e61b468",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master",
+                    "lighp/lib-captcha": "dev-master"
+                },
+                "time": "2014-04-23 12:18:27",
+                "type": "lighp-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "A simple contact page, which sends e-mails to the webmaster.",
+                "support": {
+                    "source": "https://github.com/lighp/module-contact/tree/master",
+                    "issues": "https://github.com/lighp/module-contact/issues"
+                }
+            }
+        },
+        "lighp/module-pages": {
+            "dev-master": {
+                "name": "lighp/module-pages",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-pages.git",
+                    "reference": "cacced4ec8ee7fe794995f9a58e16159c5c523ad"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-pages/zipball/cacced4ec8ee7fe794995f9a58e16159c5c523ad",
+                    "reference": "cacced4ec8ee7fe794995f9a58e16159c5c523ad",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master"
+                },
+                "time": "2015-08-24 19:16:07",
+                "type": "lighp-module",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "A simple pages module",
+                "support": {
+                    "source": "https://github.com/lighp/module-pages/tree/master",
+                    "issues": "https://github.com/lighp/module-pages/issues"
+                }
+            }
+        },
+        "lighp/module-portfolio": {
+            "dev-master": {
+                "name": "lighp/module-portfolio",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-portfolio.git",
+                    "reference": "f39b774b87347954dacce61548f51c7017156829"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-portfolio/zipball/f39b774b87347954dacce61548f51c7017156829",
+                    "reference": "f39b774b87347954dacce61548f51c7017156829",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master"
+                },
+                "time": "2014-04-23 12:40:17",
+                "type": "lighp-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "A portfolio module.",
+                "support": {
+                    "source": "https://github.com/lighp/module-portfolio/tree/master",
+                    "issues": "https://github.com/lighp/module-portfolio/issues"
+                }
+            }
+        },
+        "lighp/module-test": {
+            "dev-master": {
+                "name": "lighp/module-test",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-test.git",
+                    "reference": "959b04469673099e906f50bc42f633f416fd7813"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-test/zipball/959b04469673099e906f50bc42f633f416fd7813",
+                    "reference": "959b04469673099e906f50bc42f633f416fd7813",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master"
+                },
+                "time": "2014-04-21 17:44:30",
+                "type": "lighp-module",
+                "license": [
+                    "The Unlicence"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "homepage": "http://emersion.fr"
+                    }
+                ],
+                "description": "A module for test purposes.",
+                "homepage": "http://lighp.github.io/lighp/",
+                "support": {
+                    "source": "https://github.com/lighp/module-test/tree/master",
+                    "issues": "https://github.com/lighp/module-test/issues"
+                }
+            }
+        },
+        "lighp/module-users": {
+            "dev-master": {
+                "name": "lighp/module-users",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lighp/module-users.git",
+                    "reference": "e6f3405c0903bd361e24993621df55df950ebeba"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lighp/module-users/zipball/e6f3405c0903bd361e24993621df55df950ebeba",
+                    "reference": "e6f3405c0903bd361e24993621df55df950ebeba",
+                    "shasum": ""
+                },
+                "require": {
+                    "lighp/composer-lighp-installers": "dev-master",
+                    "lighp/dao-jsondb": "dev-master"
+                },
+                "time": "2015-08-25 19:57:15",
+                "type": "lighp-module",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "emersion",
+                        "email": "contact@emersion.fr"
+                    }
+                ],
+                "description": "Users module.",
+                "support": {
+                    "source": "https://github.com/lighp/module-users/tree/master",
+                    "issues": "https://github.com/lighp/module-users/issues"
+                }
+            }
+        }
+    }
+}

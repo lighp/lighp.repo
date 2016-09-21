@@ -985,19 +985,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/module-users.git",
-                    "reference": "e6f3405c0903bd361e24993621df55df950ebeba"
+                    "reference": "a52ea5e38cd40024bac955878fda6ff60a8dce83"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/module-users/zipball/e6f3405c0903bd361e24993621df55df950ebeba",
-                    "reference": "e6f3405c0903bd361e24993621df55df950ebeba",
+                    "url": "https://api.github.com/repos/lighp/module-users/zipball/a52ea5e38cd40024bac955878fda6ff60a8dce83",
+                    "reference": "a52ea5e38cd40024bac955878fda6ff60a8dce83",
                     "shasum": ""
                 },
                 "require": {
                     "lighp/composer-lighp-installers": "dev-master",
                     "lighp/dao-jsondb": "dev-master"
                 },
-                "time": "2015-08-25 19:57:15",
+                "time": "2016-09-21 12:13:47",
                 "type": "lighp-module",
                 "license": [
                     "MIT"

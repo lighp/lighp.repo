@@ -153,18 +153,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/composer-lighp-installers.git",
-                    "reference": "1b6b1ac99b6768c2622f73c77daf86524bf84515"
+                    "reference": "617b943c50344649f3cbbb67930b9e540318129b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/composer-lighp-installers/zipball/1b6b1ac99b6768c2622f73c77daf86524bf84515",
-                    "reference": "1b6b1ac99b6768c2622f73c77daf86524bf84515",
+                    "url": "https://api.github.com/repos/lighp/composer-lighp-installers/zipball/617b943c50344649f3cbbb67930b9e540318129b",
+                    "reference": "617b943c50344649f3cbbb67930b9e540318129b",
                     "shasum": ""
                 },
                 "require": {
-                    "composer-plugin-api": "1.0.0"
+                    "composer-plugin-api": "^1.0"
                 },
-                "time": "2015-07-25 19:05:27",
+                "time": "2016-09-21 09:56:59",
                 "type": "composer-plugin",
                 "extra": {
                     "class": "lighp\\Composer\\Plugin"
@@ -414,12 +414,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/lighp-core.git",
-                    "reference": "a958704939e38275d41aa774832cc12347470093"
+                    "reference": "157838d3532ff07b1089ee953d7348a5f6990fac"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/lighp-core/zipball/a958704939e38275d41aa774832cc12347470093",
-                    "reference": "a958704939e38275d41aa774832cc12347470093",
+                    "url": "https://api.github.com/repos/lighp/lighp-core/zipball/157838d3532ff07b1089ee953d7348a5f6990fac",
+                    "reference": "157838d3532ff07b1089ee953d7348a5f6990fac",
                     "shasum": ""
                 },
                 "require": {
@@ -432,7 +432,7 @@
                     "mustangostang/spyc": "0.5.*@dev",
                     "php": ">=5.4.0"
                 },
-                "time": "2015-12-05 09:28:30",
+                "time": "2016-02-23 23:17:30",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"

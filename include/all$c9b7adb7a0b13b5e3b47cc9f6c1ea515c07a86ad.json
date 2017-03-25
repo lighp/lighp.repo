@@ -191,18 +191,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lighp/dao-jsondb.git",
-                    "reference": "0b050a3283a1e59e20cc1306d40c610a98753a44"
+                    "reference": "c0405234ab10da9139cfc55eec453e90718d767c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lighp/dao-jsondb/zipball/0b050a3283a1e59e20cc1306d40c610a98753a44",
-                    "reference": "0b050a3283a1e59e20cc1306d40c610a98753a44",
+                    "url": "https://api.github.com/repos/lighp/dao-jsondb/zipball/c0405234ab10da9139cfc55eec453e90718d767c",
+                    "reference": "c0405234ab10da9139cfc55eec453e90718d767c",
                     "shasum": ""
                 },
                 "require": {
                     "lighp/composer-lighp-installers": "dev-master"
                 },
-                "time": "2015-08-31 13:49:45",
+                "time": "2017-03-25 16:12:26",
                 "type": "lighp-module",
                 "license": [
                     "GPLv3"
